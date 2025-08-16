@@ -1,0 +1,27 @@
+# data and caches
+data/
+*.csv
+!docs/*.csv
+
+# trained weights
+*.pth
+*.pt
+*.ckpt
+
+# secrets --- no .env file is committed; see "Running it" in the README
+.env
+.env.*
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
